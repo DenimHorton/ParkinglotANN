@@ -1,0 +1,29 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\citeauthoryear{Chandrakant}{2020}]{chandrakant_2020}
+Chandrakant, K.
+\newblock 2020.
+\newblock Reinforcement learning with neural network.
+
+\bibitem[\protect\citeauthoryear{Silva \bgroup et al\mbox.\egroup
+  }{2016}]{Silva}
+Silva, I. N.~D.; Spatti, D.~H.; Andrade~Flauzino, R.; Liboni, L. H.~B.;
+  Reis~Alves, S. F.~s.; and service), S.~O.
+\newblock 2016.
+\newblock {\em Artificial neural networks: a practical course}.
+\newblock Switzerland: Springer.
+
+\bibitem[\protect\citeauthoryear{Sutton and
+  Barto}{2018}]{sutton2018reinforcement}
+Sutton, R.~S., and Barto, A.~G.
+\newblock 2018.
+\newblock {\em Reinforcement learning: An introduction}.
+\newblock MIT press.
+
+\bibitem[\protect\citeauthoryear{Watkins and Dayan}{1992}]{watkins1992q}
+Watkins, C.~J., and Dayan, P.
+\newblock 1992.
+\newblock Q-learning.
+\newblock {\em Machine learning} 8(3-4):279--292.
+
+\end{thebibliography}

@@ -1,0 +1,415 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.9.16)  6 DEC 2021 12:47
+entering extended mode
+**./ParkinglotANNArticle.tex
+(ParkinglotANNArticle.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-01-09> xparse <2020-03-03>
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
+File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+)
+\c@part=\count177
+\c@section=\count178
+\c@subsection=\count179
+\c@subsubsection=\count180
+\c@paragraph=\count181
+\c@subparagraph=\count182
+\c@figure=\count183
+\c@table=\count184
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(aaai.sty
+Conference Style for AAAI for LaTeX 2e -- version of 1 December 2013
+\titlebox=\skip49
+) (C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\times.sty
+Package: times 2020/03/25 PSNFSS-v9.3 (SPQR) 
+)
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\helvet.sty
+Package: helvet 2020/03/25 PSNFSS-v9.3 (WaS) 
+
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+))
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\courier.sty
+Package: courier 2020/03/25 PSNFSS-v9.3 (WaS) 
+)
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen139
+\Gin@req@width=\dimen140
+) (C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+) (C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/natbib\natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip50
+\bibsep=\skip51
+LaTeX Info: Redefining \cite on input line 694.
+LaTeX Info: Redefining \citeauthor on input line 712.
+LaTeX Info: Redefining \citeyear on input line 735.
+\c@NAT@ctr=\count185
+)
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2020/09/23 v2.17i AMS math features
+\@mathmargin=\skip52
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen141
+))
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen142
+)
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count186
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count187
+\leftroot@=\count188
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count189
+\DOTSCASE@=\count190
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box47
+\strutbox@=\box48
+\big@size=\dimen143
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count191
+\c@MaxMatrixCols=\count192
+\dotsspace@=\muskip16
+\c@parentequation=\count193
+\dspbrk@lvl=\count194
+\tag@help=\toks17
+\row@=\count195
+\column@=\count196
+\maxfields@=\count197
+\andhelp@=\toks18
+\eqnshift@=\dimen144
+\alignsep@=\dimen145
+\tagshift@=\dimen146
+\tagwidth@=\dimen147
+\totwidth@=\dimen148
+\lineht@=\dimen149
+\@envbody=\toks19
+\multlinegap=\skip53
+\multlinetaggap=\skip54
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+)
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/algorithm2e\algorithm2e
+.sty
+Package: algorithm2e 2017/07/18 v5.2 algorithms environments
+\c@AlgoLine=\count198
+ (C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\algocf@hangindent=\skip55
+
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count199
+)
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+) (C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/relsize\relsize.sty
+Package: relsize 2013/03/29 ver 4.1
+)
+\skiptotal=\skip56
+\skiplinenumber=\skip57
+\skiprule=\skip58
+\skiphlne=\skip59
+\skiptext=\skip60
+\skiplength=\skip61
+\algomargin=\skip62
+\skipalgocfslide=\skip63
+\algowidth=\dimen150
+\inoutsize=\dimen151
+\inoutindent=\dimen152
+\interspacetitleruled=\dimen153
+\interspacealgoruled=\dimen154
+\interspacetitleboxruled=\dimen155
+\algocf@ruledwidth=\skip64
+\algocf@inoutbox=\box49
+\algocf@inputbox=\box50
+\AlCapSkip=\skip65
+\AlCapHSkip=\skip66
+\algoskipindent=\skip67
+\algocf@nlbox=\box51
+\algocf@hangingbox=\box52
+\algocf@untilbox=\box53
+\algocf@skipuntil=\skip68
+\algocf@capbox=\box54
+\algocf@lcaptionbox=\skip69
+\algoheightruledefault=\skip70
+\algoheightrule=\skip71
+\algotitleheightruledefault=\skip72
+\algotitleheightrule=\skip73
+\c@algocfline=\count266
+\c@algocfproc=\count267
+\c@algocf=\count268
+\algocf@algoframe=\box55
+\algocf@algobox=\box56
+)
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 2
+7.
+
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def
+File: l3backend-pdftex.def 2021-01-09 L3 backend support: PDF output (pdfTeX)
+\l__kernel_color_stack_int=\count269
+\l__pdf_internal_box=\box57
+) (ParkinglotANNArticle.aux)
+\openout1 = `ParkinglotANNArticle.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count270
+\scratchdimen=\dimen156
+\scratchbox=\box58
+\nofMPsegments=\count271
+\nofMParguments=\count272
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count273
+\MPscratchDim=\dimen157
+\MPnumerator=\count274
+\makeMPintoPDFobject=\count275
+\everyMPtoPDFconversion=\toks22
+)
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 38.
+
+
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 38.
+
+
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+[1{C:/Users/Admin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+
+
+]
+<C:/Users/Admin/OneDrive/Documents/School/CS-4080 Reinforcment Learning/Parking
+lotANN/Paper/Images//parkinglot.png, id=8, 270.25969pt x 315.42844pt>
+File: C:/Users/Admin/OneDrive/Documents/School/CS-4080 Reinforcment Learning/Pa
+rkinglotANN/Paper/Images//parkinglot.png Graphic file (type png)
+<use C:/Users/Admin/OneDrive/Documents/School/CS-4080 Reinforcment Learning/Par
+kinglotANN/Paper/Images//parkinglot.png>
+Package pdftex.def Info: C:/Users/Admin/OneDrive/Documents/School/CS-4080 Reinf
+orcment Learning/ParkinglotANN/Paper/Images//parkinglot.png  used on input line
+ 61.
+(pdftex.def)             Requested size: 189.18048pt x 220.79839pt.
+<C:/Users/Admin/OneDrive/Documents/School/CS-4080 Reinforcment Learning/Parking
+lotANN/Paper/Images//parkinglot1.png, id=10, 282.30469pt x 305.64188pt>
+File: C:/Users/Admin/OneDrive/Documents/School/CS-4080 Reinforcment Learning/Pa
+rkinglotANN/Paper/Images//parkinglot1.png Graphic file (type png)
+<use C:/Users/Admin/OneDrive/Documents/School/CS-4080 Reinforcment Learning/Par
+kinglotANN/Paper/Images//parkinglot1.png>
+Package pdftex.def Info: C:/Users/Admin/OneDrive/Documents/School/CS-4080 Reinf
+orcment Learning/ParkinglotANN/Paper/Images//parkinglot1.png  used on input lin
+e 68.
+(pdftex.def)             Requested size: 197.61192pt x 213.94785pt.
+
+
+Package natbib Warning: Citation `Silva' on page 2 undefined on input line 77.
+
+
+Underfull \vbox (badness 1163) has occurred while \output is active []
+
+ [2 <C:/Users/Admin/OneDrive/Documents/School/CS-4080 Reinforcment Learning/Par
+kinglotANN/Paper/Images//parkinglot.png> <C:/Users/Admin/OneDrive/Documents/Sch
+ool/CS-4080 Reinforcment Learning/ParkinglotANN/Paper/Images//parkinglot1.png>]
+
+
+Package natbib Warning: Citation `watkins1992q' on page 3 undefined on input li
+ne 82.
+
+
+Package relsize Warning: Font size 4.16667pt is too small.
+(relsize)                Using 6.0pt instead on input line 104.
+
+
+Package relsize Warning: Font size 4.16667pt is too small.
+(relsize)                Using 6.0pt instead on input line 104.
+
+
+Package natbib Warning: Citation `sutton2018reinforcement' on page 3 undefined 
+on input line 107.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--115
+
+ []
+
+<C:/Users/Admin/OneDrive/Documents/School/CS-4080 Reinforcment Learning/Parking
+lotANN/Paper/Images//sigmoid.png, id=16, 137.01187pt x 46.67438pt>
+File: C:/Users/Admin/OneDrive/Documents/School/CS-4080 Reinforcment Learning/Pa
+rkinglotANN/Paper/Images//sigmoid.png Graphic file (type png)
+<use C:/Users/Admin/OneDrive/Documents/School/CS-4080 Reinforcment Learning/Par
+kinglotANN/Paper/Images//sigmoid.png>
+Package pdftex.def Info: C:/Users/Admin/OneDrive/Documents/School/CS-4080 Reinf
+orcment Learning/ParkinglotANN/Paper/Images//sigmoid.png  used on input line 11
+6.
+(pdftex.def)             Requested size: 137.01154pt x 46.67424pt.
+<C:/Users/Admin/OneDrive/Documents/School/CS-4080 Reinforcment Learning/Parking
+lotANN/Paper/Images//ReLU.png, id=17, 133.24782pt x 45.16875pt>
+File: C:/Users/Admin/OneDrive/Documents/School/CS-4080 Reinforcment Learning/Pa
+rkinglotANN/Paper/Images//ReLU.png Graphic file (type png)
+<use C:/Users/Admin/OneDrive/Documents/School/CS-4080 Reinforcment Learning/Par
+kinglotANN/Paper/Images//ReLU.png>
+Package pdftex.def Info: C:/Users/Admin/OneDrive/Documents/School/CS-4080 Reinf
+orcment Learning/ParkinglotANN/Paper/Images//ReLU.png  used on input line 117.
+(pdftex.def)             Requested size: 133.24748pt x 45.16862pt.
+
+Package natbib Warning: Citation `chandrakant_2020' on page 3 undefined on inpu
+t line 119.
+
+
+Underfull \hbox (badness 1565) in paragraph at lines 119--122
+\OT1/ptm/m/n/10 the ar-ti-fi-cial neu-ral net-work is pro-cess-ing re-ward-s fo
+r
+ []
+
+
+Underfull \hbox (badness 1552) in paragraph at lines 119--122
+\OT1/ptm/m/n/10 in-for-ma-tion to change the weight-s be-tween pre-vi-ous-ly
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--122
+
+ []
+
+[3 <C:/Users/Admin/OneDrive/Documents/School/CS-4080 Reinforcment Learning/Park
+inglotANN/Paper/Images//sigmoid.png> <C:/Users/Admin/OneDrive/Documents/School/
+CS-4080 Reinforcment Learning/ParkinglotANN/Paper/Images//ReLU.png>]
+<C:/Users/Admin/OneDrive/Documents/School/CS-4080 Reinforcment Learning/Parking
+lotANN/Paper/Images//ANNvsQLearning.png, id=32, 523.9575pt x 197.23688pt>
+File: C:/Users/Admin/OneDrive/Documents/School/CS-4080 Reinforcment Learning/Pa
+rkinglotANN/Paper/Images//ANNvsQLearning.png Graphic file (type png)
+<use C:/Users/Admin/OneDrive/Documents/School/CS-4080 Reinforcment Learning/Par
+kinglotANN/Paper/Images//ANNvsQLearning.png>
+Package pdftex.def Info: C:/Users/Admin/OneDrive/Documents/School/CS-4080 Reinf
+orcment Learning/ParkinglotANN/Paper/Images//ANNvsQLearning.png  used on input 
+line 136.
+(pdftex.def)             Requested size: 209.57928pt x 78.89334pt.
+
+Underfull \hbox (badness 1028) in paragraph at lines 144--145
+[]\OT1/ptm/m/n/10 Change any rel-e-van-t pa-ram-e-ter-s and com-men-t on how
+ []
+
+(ParkinglotANNArticle.bbl)
+
+Package natbib Warning: There were undefined citations.
+
+[4 <C:/Users/Admin/OneDrive/Documents/School/CS-4080 Reinforcment Learning/Park
+inglotANN/Paper/Images//ANNvsQLearning.png>] (ParkinglotANNArticle.aux) ) 
+Here is how much of TeX's memory you used:
+ 3886 strings out of 481532
+ 58934 string characters out of 2915361
+ 359506 words of memory out of 3000000
+ 20769 multiletter control sequences out of 15000+200000
+ 426086 words of font info for 66 fonts, out of 3000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 68i,22n,74p,2781b,548s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Us
+ers/Admin/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/A
+dmin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C
+:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi
+6.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmr10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmr6.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/
+public/amsfonts/cm/cmr7.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Admin/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/Admin/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Admin/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Admin/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Admin/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Admin/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on ParkinglotANNArticle.pdf (4 pages, 208054 bytes).
+PDF statistics:
+ 74 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+

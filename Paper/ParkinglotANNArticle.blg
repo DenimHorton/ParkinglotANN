@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: ParkinglotANNArticle.aux
+Reallocating 'name_of_file' (item size: 1) to 5 items.
+The style file: aaai.bst
+Reallocating 'name_of_file' (item size: 1) to 21 items.
+Database file #1: ParkinglotANNArticle.bib
+You've used 4 entries,
+            2568 wiz_defined-function locations,
+            599 strings with 5131 characters,
+and the built_in function-call counts, 1430 in all, are:
+= -- 140
+> -- 66
+< -- 0
++ -- 22
+- -- 22
+* -- 111
+:= -- 249
+add.period$ -- 19
+call.type$ -- 4
+change.case$ -- 25
+chr.to.int$ -- 4
+cite$ -- 4
+duplicate$ -- 52
+empty$ -- 104
+format.name$ -- 28
+if$ -- 284
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 5
+newline$ -- 26
+num.names$ -- 12
+pop$ -- 32
+preamble$ -- 1
+purify$ -- 31
+quote$ -- 0
+skip$ -- 42
+stack$ -- 0
+substring$ -- 45
+swap$ -- 8
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 24
+warning$ -- 0
+while$ -- 10
+width$ -- 6
+write$ -- 53
