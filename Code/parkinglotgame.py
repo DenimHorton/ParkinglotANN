@@ -1,7 +1,7 @@
 import numpy as np
 import copy
 from tabulate import tabulate
-from learningagents import LearningAgent, QLearningAgent
+from learningagents import LearningAgent, DeepQLearningAgent, QLearningAgent
 
 
 class Parkinglot:
@@ -11,7 +11,7 @@ class Parkinglot:
     @param brs is the barries with in the parkinglot
     @param pl_spots are the parking spots in the parkinglot    
     '''
-    def __init__(self, pl_hight= 7,  pl_width=6, brs=[(4,2), (4, 3), (4, 4), (4, 5)], pl_spots={(3, 2):[-1, 0], (3, 3):[-1, 0], (3, 4):[-1, 0], (3, 5):[-1, 0], (5, 2):[1, 0], (5, 3):[1, 0], (5, 4):[1, 0], (5, 5):[1, 0]}, ml_agent_type = "LearningAgent"):
+    def __init__(self, pl_hight= 7,  pl_width=6, brs=[(4,2), (4, 3), (4, 4), (4, 5)], assigned_spots = [(3, 2)], pl_spots={(3, 2):[-1, 0], (3, 3):[-1, 0], (3, 4):[-1, 0], (3, 5):[-1, 0], (5, 2):[1, 0], (5, 3):[1, 0], (5, 4):[1, 0], (5, 5):[1, 0]}, ml_agent_type = "LearningAgent"):
         # Define parkinglot deminsions. 
         self.parkinglot_height = pl_hight
         self.parkinglot_width = pl_width
@@ -21,9 +21,9 @@ class Parkinglot:
         # Define parkinglot spots set with exit vectors to enter and exit through.
         self.parking_spots = pl_spots
         # Define open/assigned parking spots.
-        self.assigned_parking_spots = [(3, 2)] # , (3, 3), (3, 4), (3, 5), (5, 2), (5, 3), (5, 4), (5, 5)]
+        self.assigned_parking_spots = assigned_spots
         # Define parkinglot entrance where agent will begin from for each episode of training.
-        self.parkinglot_entrance = (7, 6)
+        self.parkinglot_entrance = (pl_hight, pl_width)
          # Define reward values as class attributes for easy manipulation.
         self.barrier_reward = -100
         self.border_reward = -100
@@ -64,9 +64,8 @@ class Parkinglot:
             self.ml_agent = QLearningAgent(self)
         else:
             self.ml_agent = LearningAgent(self)
-
         # Define reward table values
-        self.reward_table = {(x, y): list(self.parkinglot.copy().item((x, y)) for i in range(5)) for x in range(1, self.parkinglot_height+1) for y in range(1, self.parkinglot_width+1)}     
+        self.reward_table = {(x, y): list(self.parkinglot.copy().item((x, y)) for i in range(4)) for x in range(1, self.parkinglot_height+1) for y in range(1, self.parkinglot_width+1)}     
         # Define illegal moves.
         self.setIllegalMoves()
         
@@ -98,6 +97,8 @@ class Parkinglot:
     def changeLearningAgentMethod(self, agent_type):
         if agent_type == "Q-Learning":
             self.ml_agent = QLearningAgent(self)
+        elif agent_type == "Deep Q-Learning":
+            self.ml_agent = DeepQLearningAgent(self)
         else:
             print("Not a valid learning agent.")
             
@@ -105,26 +106,32 @@ class Parkinglot:
     def resetCar(self):
         self.current = self.parkinglot_entrance
 
-    def buildRewardTable(self):
-        table = list([state, act_rwd_pair[0], act_rwd_pair[1], act_rwd_pair[2], act_rwd_pair[3]] for state, act_rwd_pair in self.reward_table.items())
-        print(tabulate(table, headers=["States", 'DOWN', 'UP', 'RIGHT', 'LEFT' ], tablefmt="pretty"))
+    # def buildRewardTable(self):
+    #     table = list([state, act_rwd_pair[0], act_rwd_pair[1], act_rwd_pair[2], act_rwd_pair[3]] for state, act_rwd_pair in self.reward_table.items())
+    #     print(tabulate(table, headers=["States", 'DOWN', 'UP', 'RIGHT', 'LEFT' ], tablefmt="pretty"))
 
-    def buildIllegalmovesTable(self):
-        table = list([state, bad_moves] for state, bad_moves in self.illegal_moves.items())
-        for state in range(len(table)):
-            for moves in range(1, len(table[state])):
-                for move in range(len(table[state][moves])):
-                    table[state][moves][move] = copy.copy(self.actions_map.get((table[state][moves][move][0], table[state][moves][move][1])))
-        print(tabulate(table, headers=["States", 'Illegal Moves' ], tablefmt="pretty", stralign="left"))
+    # def buildIllegalmovesTable(self):
+    #     table = list([state, bad_moves] for state, bad_moves in self.illegal_moves.items())
+    #     for state in range(len(table)):
+    #         for moves in range(1, len(table[state])):
+    #             for move in range(len(table[state][moves])):
+    #                 table[state][moves][move] = copy.copy(self.actions_map.get((table[state][moves][move][0], table[state][moves][move][1])))
+    #     print(tabulate(table, headers=["States", 'Illegal Moves' ], tablefmt="pretty", stralign="left"))
 
     def showParkinglot(self):
         print(self.parkinglot)
         
     def step(self, action):
+        # Previously occupied state. 
         prev_state = self.current
+        # Matrix addition to get newly occupied state. .
         new_state_np = np.add(self.current, action)
         new_state = (new_state_np[0], new_state_np[1])
-        return new_state, self.parkinglot.item(new_state), self.carParked(), prev_state   
+        # Reward for current occupied state in parkinglot environment.
+        reward = self.parkinglot.item(new_state)
+        # Check if car is parked in the right parking spot
+        parked_car = self.carParked(new_state)
+        return new_state, reward, parked_car, prev_state   
         
     def legalAction(self, action):
         # First check if stat even has illegal actions.
@@ -135,15 +142,17 @@ class Parkinglot:
         else:
             return True
     
-    def carParked(self):
-        if (self.current[0], self.current[1]) in self.assigned_parking_spots:
+    def carParked(self, state):
+        if state in self.assigned_parking_spots:
             return True
         else:
             return False 
         
-    def rightParkingSpace(self, state):
-        if state in self.assigned_parking_spots:
+    def wrongParkingSpot(self, prk_spt):
+        if prk_spt not in self.assigned_parking_spots:
+            print(f"\t Wrong parking spot {prk_spt}!!!!")
             return True
         else:
             return False
+        
         

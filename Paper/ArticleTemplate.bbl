@@ -1,0 +1,36 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\citeauthoryear{Hasselt}{2010}]{hasselt2010double}
+Hasselt, H.
+\newblock 2010.
+\newblock Double q-learning.
+\newblock {\em Advances in neural information processing systems}
+  23:2613--2621.
+
+\bibitem[\protect\citeauthoryear{Sutton and
+  Barto}{2018}]{sutton2018reinforcement}
+Sutton, R.~S., and Barto, A.~G.
+\newblock 2018.
+\newblock {\em Reinforcement learning: An introduction}.
+\newblock MIT press.
+
+\bibitem[\protect\citeauthoryear{Wang, Li, and Lin}{2013}]{WANG20132184}
+Wang, Y.-H.; Li, T.-H.~S.; and Lin, C.-J.
+\newblock 2013.
+\newblock Backward q-learning: The combination of sarsa algorithm and
+  q-learning.
+\newblock {\em Engineering Applications of Artificial Intelligence}
+  26(9):2184--2193.
+
+\bibitem[\protect\citeauthoryear{Watkins and Dayan}{1992}]{watkins1992q}
+Watkins, C.~J., and Dayan, P.
+\newblock 1992.
+\newblock Q-learning.
+\newblock {\em Machine learning} 8(3-4):279--292.
+
+\bibitem[\protect\citeauthoryear{Zhu and Rigotti}{2021}]{zhu2021selfcorrecting}
+Zhu, R., and Rigotti, M.
+\newblock 2021.
+\newblock Self-correcting q-learning.
+
+\end{thebibliography}
